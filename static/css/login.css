@@ -1,0 +1,151 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+body {
+  background: #FEFCFD; }
+
+.header {
+  padding: 20px 0; }
+  .header .top {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden; }
+    .header .top img {
+      float: left;
+      width: 155px;
+      height: 56px; }
+    .header .top .welc {
+      float: left;
+      width: 140px;
+      height: 53px;
+      padding-left: 30px;
+      margin-top: 10px;
+      margin-left: 35px;
+      font-size: 28px;
+      line-height: 50px;
+      color: #333333;
+      border-left: 1px solid #dbdbdb;
+      font-weight: normal; }
+
+.main {
+    position: relative;
+  width: 100%;
+  background-color: #e5004b;
+  background: url(../images/login-bg.jpg) center center;
+  overflow: hidden;
+  height: 480px;
+  border-bottom: 1px solid #dbdbdb; }
+  .main .form {
+    float: right;
+    margin-right: 150px;
+    margin-top: 50px;
+    width: 300px;
+    height: 330px;
+    background: #fff;
+    padding: 20px; }
+    .main .form .ere {
+      height: 20px;
+      font-size: 14px;
+      color: red;
+      margin-top: 20px; }
+    .main .form h1 {
+      font-size: 19px;
+      color: #686565; }
+      .main .form h1 span {
+        font-size: 12px;
+        float: right;
+        font-weight: normal;
+        line-height: 27px; }
+        .main .form h1 span a {
+          color: #137CE9;
+          float: none; }
+    .main .form input[type="text"], .main .form input[type="password"] {
+      width: 296px;
+      height: 42px;
+      padding-left: 42px;
+      margin: 10px 0;
+      /*background: url(static/images/login_icon.png) #F9F9F9 no-repeat;*/
+      border: solid black 1px;
+      box-sizing: border-box; }
+    .main .form input[type="text"] {
+      background-position: 14px -110px; }
+    .main .form input[type="password"] {
+      background-position: 14px -167px; }
+    .main .form input[type="checkbox"] {
+      float: left; }
+    .main .form .rem {
+      color: #666;
+      font-size: 13px;
+      float: left;
+      margin-right: 27px; }
+    .main .form .zid {
+      color: #666;
+      font-size: 13px;
+      float: left; }
+    .main .form .forget {
+      color: #a3a3a3;
+      font-size: 13px;
+      float: right; }
+    .main .form form input[type="submit"] {
+      width: 294px;
+      height: 42px;
+      border: none;
+      background: #E5004B;
+      color: #fff;
+      font-size: 20px;
+      margin-top: 20px;
+      cursor: pointer; }
+    .main .form .hezuo {
+      font-size: 14px;
+      color: #666;
+      margin-top: 10px;
+      float: left; }
+    .main .form img {
+      float: left;
+      margin: 10px 5px; }
+    .main .form span {
+      font-size: 12px;
+      float: left;
+      color: #666; }
+    .main .form a {
+      font-size: 12px;
+      float: left;
+      color: #137CE9; }
+  .main .form2 {
+    display: none; }
+
+.footer {
+  height: 120px;
+  text-align: center; }
+  .footer p {
+    font-size: 12px;
+    color: #a3a3a3;
+    margin-top: 20px; }
+  .footer .footer_img {
+    width: 300px;
+    margin: 20px auto; }
+    .footer .footer_img img {
+      float: left;
+      margin: 3px; }
+
+#nihao{
+    width: 460px;
+    height: 350px;
+    position: absolute;
+    background: #333333;
+    margin-left: 130px;
+    margin-top: 50px;
+    background: url(../images/nihao.jpg)
+}
+

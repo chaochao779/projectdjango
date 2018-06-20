@@ -1,0 +1,379 @@
+.main {
+  margin-top: 50px;
+  padding-bottom: 20px; }
+  .main .tit {
+    padding-left: 50px;
+    height: 36px;
+    font-weight: normal;
+    background: url(../images/index.png) no-repeat;
+    background-position: -85px -24px;
+    font-size: 24px; }
+    .main .tit span {
+      font-size: 13px;
+      margin-left: 30px;
+      color: #555; }
+    .main .tit a {
+      float: right;
+      font-size: 14px;
+      line-height: 32px;
+      color: #d41d55; }
+  .main .top_box li {
+    float: left;
+    margin: 0 6px 50px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 1px 1px #ccc; }
+    .main .top_box li div {
+      position: absolute;
+      width: 100%;
+      bottom: -56px;
+      background: #fff; }
+      .main .top_box li div img {
+        float: left;
+        height: 56px; }
+      .main .top_box li div span {
+        position: absolute;
+        margin-left: 10px;
+        top: 150px;
+        width: 130px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .main .top_box li div h2 {
+        color: #E5004B;
+        position: absolute;
+        font-weight: normal;
+        right: 5px;
+        top: 100px; }
+  .main .mysh .tit {
+    clear: both;
+    background-position: -87px -485px; }
+  .main .mysh ul {
+    overflow: hidden; }
+    .main .mysh ul li {
+      float: left;
+      margin: 20px 5px; }
+
+.detail {
+  background: #F3F3F3;
+  padding-bottom: 40px; }
+  .detail .layout .ban img {
+    width: 1200px;
+    cursor: pointer; }
+  .detail .layout .detail_goods {
+    width: 100%;
+    overflow: hidden; }
+    .detail .layout .detail_goods .good_s {
+      float: left;
+      padding: 40px 21px 20px;
+      background: #fff;
+      margin: 10px 4px 10px;
+      position: relative;
+      overflow: hidden; }
+      .detail .layout .detail_goods .good_s .bg1 {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        background: url(../images/index_tab.png) no-repeat;
+        background-position: -260px -296px; }
+      .detail .layout .detail_goods .good_s img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 20px; }
+      .detail .layout .detail_goods .good_s p {
+        font-size: 13px;
+        white-space: pre-wrap;
+        width: 230px;
+        height: 40px;
+        margin: 0 auto;
+        color: #555; }
+      .detail .layout .detail_goods .good_s .cost span {
+        color: #E9004B;
+        font-size: 20px;
+        float: left; }
+      .detail .layout .detail_goods .good_s .cost s {
+        font-size: 14px;
+        color: #888;
+        margin-left: 10px;
+        float: left; }
+      .detail .layout .detail_goods .good_s .cost a {
+        font-size: 13px;
+        color: #E9004B;
+        margin-left: 80px;
+        line-height: 30px; }
+      .detail .layout .detail_goods .good_s .go {
+        display: block;
+        width: 120px;
+        height: 34px;
+        background: #E9004B;
+        color: #fff;
+        text-align: center;
+        line-height: 34px;
+        font-size: 13px;
+        float: left;
+        cursor: pointer; }
+      .detail .layout .detail_goods .good_s .buy {
+        width: 120px;
+        height: 32px;
+        background: #fff;
+        color: #E9004B;
+        float: right;
+        text-align: center;
+        line-height: 34px;
+        font-size: 13px;
+        border: 1px solid #E9004B;
+        cursor: pointer; }
+    .detail .layout .detail_goods em {
+      font-style: normal; }
+
+.top {
+  border-bottom: 2px solid #E00049; }
+  .top .layout {
+    padding: 35px 0 18px;
+    height: 70px; }
+    .top .layout > a {
+      float: left; }
+    .top .layout > img {
+      float: right;
+      margin-top: 20px; }
+
+.mycar {
+  background: #F3F3F3;
+  padding: 20px;
+  min-height: 450px; }
+  .mycar h1 {
+    font-weight: normal;
+    font-size: 17px;
+    color: #777; }
+    .mycar h1 a {
+      float: right;
+      font-size: 15px;
+      color: #777; }
+  .mycar .car_list {
+    width: 100%;
+    display: flex;
+    background: #FFFBF0;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-around; }
+    .mycar .car_list img {
+      width: 72px;
+      height: 72px; }
+    .mycar .car_list p {
+      font-size: 15px; }
+    .mycar .car_list em {
+      font-size: 16px;
+      font-style: normal;
+      display: block;
+      height: 30px;
+      width: 100px;
+      background: #E00049;
+      border-radius: 5px;
+      color: #fff;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer; }
+  .mycar .jies {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .mycar .jies p {
+      margin: 0 30px; }
+      .mycar .jies p span {
+        color: #E5004A;
+        font-size: 20px; }
+    .mycar .jies #btncar {
+      width: 150px;
+      height: 30px;
+      text-align: center;
+      line-height: 30px;
+      background: #E5004A;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 10px; }
+  .mycar .no {
+    width: 300px;
+    margin: 100px auto;
+    padding-left: 71px;
+    background: url(../images/bg1.png) no-repeat;
+    background-size: 54px 54px; }
+    .mycar .no p {
+      font-size: 16px;
+      margin-bottom: 20px; }
+    .mycar .no a {
+      font-size: 13px;
+      color: #137CE9; }
+
+.footer {
+  height: 120px;
+  text-align: center;
+  background: #F3F3F3; }
+  .footer p {
+    font-size: 12px;
+    color: #a3a3a3;
+    padding-top: 20px;
+    border-top: 1px solid #ccc; }
+  .footer .footer_img {
+    width: 300px;
+    margin: 20px auto; }
+    .footer .footer_img img {
+      float: left;
+      margin: 3px; }
+
+.god {
+  background: #F3F3F3;
+  padding: 20px 0; }
+  .god .god_detail {
+    background: #fff;
+    padding: 20px;
+    height: 500px; }
+    .god .god_detail .god_left {
+      float: left; }
+      .god .god_detail .god_left .box_big {
+        width: 419px;
+        height: 419px;
+        border: 1px solid #ccc; }
+        .god .god_detail .god_left .box_big img {
+          width: 418px;
+          height: 418px; }
+      .god .god_detail .god_left .box_small {
+        margin-top: 10px;
+        width: 418px;
+        height: 65px; }
+        .god .god_detail .god_left .box_small li {
+          width: 66px;
+          height: 66px;
+          border: 1px solid #ccc;
+          float: left;
+          margin: 0 8px;
+          box-sizing: border-box; }
+          .god .god_detail .god_left .box_small li:hover {
+            border: 2px solid #E5004A; }
+          .god .god_detail .god_left .box_small li img {
+            width: 60px;
+            height: 60px; }
+    .god .god_detail .god_right {
+      float: right; }
+      .god .god_detail .god_right .goods_from {
+        width: 710px;
+        height: 50px;
+        background: url(../images/icon-bsq.png) no-repeat right top; }
+        .god .god_detail .god_right .goods_from .from {
+          width: 323px;
+          height: 50px; }
+          .god .god_detail .god_right .goods_from .from img {
+            width: 42px;
+            float: left; }
+          .god .god_detail .god_right .goods_from .from span {
+            font-size: 18px;
+            line-height: 40px;
+            color: #ccc;
+            margin-left: 10px; }
+      .god .god_detail .god_right .goods_name {
+        font-size: 19px;
+        margin-top: 10px;
+        color: #999; }
+        .god .god_detail .god_right .goods_name span {
+          color: #E5004A; }
+        .god .god_detail .god_right .goods_name b {
+          color: #555; }
+      .god .god_detail .god_right .goods_price {
+        width: 680;
+        background: #F9F9F9;
+        font-size: 13px;
+        margin-top: 20px;
+        padding: 10px 15px; }
+        .god .god_detail .god_right .goods_price div {
+          overflow: hidden; }
+          .god .god_detail .god_right .goods_price div p {
+            float: left;
+            line-height: 40px; }
+          .god .god_detail .god_right .goods_price div span {
+            margin: 0 20px 0 70px;
+            float: left;
+            line-height: 40px; }
+            .god .god_detail .god_right .goods_price div span b {
+              color: #E5004A;
+              font-size: 25px; }
+            .god .god_detail .god_right .goods_price div span a {
+              background: #FF8A00;
+              color: #fff; }
+          .god .god_detail .god_right .goods_price div img {
+            float: left;
+            margin-top: 10px; }
+      .god .god_detail .god_right .buy_g {
+        float: left;
+        width: 138px;
+        height: 42px;
+        background: #E5004A;
+        color: #fff;
+        cursor: pointer;
+        text-align: center;
+        line-height: 42px;
+        margin: 40px 20px 0 100px; }
+        .god .god_detail .god_right .buy_g em {
+          font-style: normal; }
+      .god .god_detail .god_right .buy_r {
+        float: left;
+        width: 150px;
+        height: 40px;
+        border: 1px solid #ccc;
+        color: #E5004A;
+        cursor: pointer;
+        text-align: center;
+        line-height: 42px;
+        margin: 40px 0; }
+      .god .god_detail .god_right > a {
+        float: left;
+        margin: 40px 30px;
+        line-height: 42px;
+        font-size: 14px;
+        color: #137CE9; }
+
+.vip {
+  background: #F3F3F3; }
+  .vip .layout {
+    padding: 20px 0;
+    overflow: hidden; }
+    .vip .layout .left {
+      float: left;
+      width: 130px;
+      background: #fff;
+      padding: 20px 0;
+      margin-right: 10px; }
+      .vip .layout .left .leftmenu_t {
+        font-weight: bold;
+        font-size: 14px;
+        padding-left: 20px;
+        background: url(../images/arrow1.jpg) no-repeat 10px center;
+        line-height: 35px; }
+      .vip .layout .left ul li {
+        text-align: center; }
+        .vip .layout .left ul li a {
+          font-size: 12px;
+          line-height: 30px;
+          color: #666; }
+          .vip .layout .left ul li a:hover {
+            color: #E5004A; }
+    .vip .layout .right {
+      overflow: hidden; }
+      .vip .layout .right .rightmenu_t {
+        height: 141px;
+        background: url(../images/infor.png);
+        overflow: hidden; }
+        .vip .layout .right .rightmenu_t .name {
+          margin-left: 130px;
+          margin-top: 25px;
+          color: #E5004A;
+          font-size: 19px; }
+      .vip .layout .right .rightmenu_b {
+        height: 350px;
+        background: url(../images/kong.png) #fff no-repeat;
+        margin-top: 20px;
+        overflow: hidden; }

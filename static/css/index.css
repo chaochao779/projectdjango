@@ -1,0 +1,384 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+  margin: 0;
+  padding: 0; }
+
+img {
+  display: block; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+.layout {
+  margin: 0 auto;
+  width: 1200px; }
+
+.header {
+  height: 30px;
+  background: #333; }
+  .header .wel {
+    color: #dbdbdb;
+    line-height: 30px;
+    font-size: 12px; }
+    .header .wel a {
+      color: #E5004A; }
+      .header .wel a:hover {
+        color: #fff; }
+    .header .wel e {
+      color: #E5004A; }
+  .header .layout > a {
+    color: #c92733;
+    font-size: 12px; }
+    .header .layout > a:hover {
+      color: #fff; }
+  .header .topNav {
+    float: right; }
+    .header .topNav > li {
+      float: left;
+      height: 30px;
+      line-height: 30px;
+      color: #dbdbdb;
+      position: relative;
+      font-size: 12px;
+      margin: 0 10px;
+      background: #333; }
+      .header .topNav > li > a {
+        color: #dbdbdb; }
+      .header .topNav > li .nav_box {
+        display: inline; }
+      .header .topNav > li span {
+        display: inline-block;
+        margin-left: 3px;
+        width: 7px;
+        height: 7px;
+        background: url(../images/index.png);
+        background-position: -14px 0; }
+      .header .topNav > li .nav1 {
+        overflow: hidden;
+        width: 60px;
+        position: absolute;
+        left: -15px;
+        text-align: center;
+        padding: 15px;
+        display: none;
+        background: #333;
+        z-index: 9; }
+        .header .topNav > li .nav1 a {
+          color: #dbdbdb; }
+      .header .topNav > li .nav2 {
+        position: absolute;
+        left: -50px;
+        padding: 10px;
+        background: #333;
+        display: none;
+        z-index: 9; }
+        .header .topNav > li .nav2 li {
+          margin-bottom: 5px; }
+      .header .topNav > li .nav3 {
+        overflow: hidden;
+        width: 100px;
+        position: absolute;
+        left: -15px;
+        text-align: center;
+        padding: 10px;
+        display: none;
+        background: #333;
+        z-index: 9; }
+        .header .topNav > li .nav3 a {
+          color: #dbdbdb; }
+      .header .topNav > li:hover span {
+        background-position: 0 -5px; }
+
+.middle {
+  padding: 35px 0 18px;
+  height: 70px; }
+  .middle .logo {
+    float: left; }
+  .middle .serch_box {
+    float: left;
+    margin: 0px 110px 0px 120px; }
+    .middle .serch_box .form {
+      height: 40px; }
+      .middle .serch_box .form .big {
+        width: 31px;
+        height: 40px;
+        float: left;
+        background: url(../images/index.png) #e5004a;
+        background-position: 7px -10px; }
+      .middle .serch_box .form #txt {
+        float: left;
+        height: 40px;
+        box-sizing: border-box;
+        width: 490px;
+        border: 4px solid #E5004A; }
+      .middle .serch_box .form #btn {
+        width: 99px;
+        height: 40px;
+        float: left;
+        background: #E5004A;
+        border: none;
+        color: #fff;
+        font-size: 16px; }
+    .middle .serch_box .hot {
+      margin-top: 10px; }
+      .middle .serch_box .hot ul li {
+        float: left;
+        margin: 0 10px;
+        font-size: 13px;
+        color: #888; }
+        .middle .serch_box .hot ul li a {
+          color: #888; }
+          .middle .serch_box .hot ul li a:hover {
+            color: #C92733; }
+  .middle .car {
+    width: 145px;
+    height: 40px;
+    float: left;
+    background: #E5004A; }
+    .middle .car b {
+      float: left;
+      display: block;
+      height: 24px;
+      width: 24px;
+      background: url(../images/index.png);
+      background-position: 0px -51px;
+      margin: 7px 16px 0 6px; }
+    .middle .car span {
+      line-height: 40px;
+      color: #fff;
+      font-size: 14px;
+      float: left; }
+    .middle .car .triangle-left {
+      width: 0;
+      height: 0;
+      border-top: 4px solid transparent;
+      border-right: 6px solid #FFF;
+      border-bottom: 4px solid transparent;
+      display: inline;
+      margin-left: 9px;
+      position: relative;
+      top: 16px;
+      float: left; }
+    .middle .car .num {
+      float: left;
+      margin-top: 3px;
+      background: #FFF;
+      color: #e5004a;
+      padding: 6px;
+      font-size: 14px;
+      line-height: 21px;
+      font-style: normal;
+      text-align: center;
+      min-width: 24px; }
+
+.headnav {
+  border-bottom: 2px solid #e5004a;
+  height: 38px;
+  position: relative; }
+  .headnav .nav_big {
+    overflow: hidden; }
+    .headnav .nav_big > li:first-child {
+      background: #e5004b;
+      padding-left: 2px; }
+      .headnav .nav_big > li:first-child > a {
+        width: 210px;
+        text-align: left;
+        font-weight: normal;
+        color: #fff; }
+        .headnav .nav_big > li:first-child > a:hover {
+          color: #fff; }
+    .headnav .nav_big > li {
+      float: left; }
+      .headnav .nav_big > li > a {
+        display: block;
+        width: 120px;
+        line-height: 38px;
+        text-align: center;
+        color: #555;
+        font-size: 15px;
+        font-weight: bold; }
+        .headnav .nav_big > li > a:hover {
+          color: #E5004B; }
+  .headnav .nav_ci {
+    background: url(../images/cate_menu_bottom.jpg) #E5004B no-repeat bottom;
+    position: absolute;
+    z-index: 9;
+    padding-bottom: 35px;
+    padding-top: 2px;
+    border-left: 2px solid #E5004B;
+    margin-left: -2px; }
+    .headnav .nav_ci > li {
+      padding: 9px 5px 10px 15px;
+      display: block;
+      color: #fff;
+      cursor: pointer;
+      z-index: 9;
+      width: 190px; }
+      .headnav .nav_ci > li > e {
+        display: inline-block;
+        width: 30px;
+        height: 25px;
+        background: url(../images/index.png);
+        float: left; }
+      .headnav .nav_ci > li > a {
+        font-size: 14px;
+        width: 132px;
+        height: 20px;
+        display: inline-block;
+        color: #fff; }
+      .headnav .nav_ci > li > span {
+        display: inline-block;
+        width: 15px;
+        height: 17px;
+        background: url(../images/index.png);
+        background-position: 192px -132px; }
+      .headnav .nav_ci > li:hover {
+        background: #fff; }
+      .headnav .nav_ci > li:hover a {
+        color: #E5004B; }
+      .headnav .nav_ci > li:hover e {
+        background-position-x: -35px; }
+    .headnav .nav_ci > li:nth-child(1) e {
+      background-position-y: -154px; }
+    .headnav .nav_ci > li:nth-child(2) e {
+      background-position-y: -180px; }
+    .headnav .nav_ci > li:nth-child(3) e {
+      background-position-y: -211px; }
+    .headnav .nav_ci > li:nth-child(4) e {
+      background-position-y: -239px; }
+    .headnav .nav_ci > li:nth-child(5) e {
+      background-position-y: -269px; }
+    .headnav .nav_ci > li:nth-child(6) e {
+      background-position-y: -297px; }
+    .headnav .nav_ci > li:nth-child(7) e {
+      background-position-y: -327px; }
+    .headnav .nav_ci > li:nth-child(8) e {
+      background-position-y: -358px; }
+    .headnav .nav_ci > li:nth-child(9) e {
+      background-position-y: -388px; }
+    .headnav .nav_ci > li:nth-child(10) e {
+      background-position-y: -420px; }
+    .headnav .nav_ci .xxk {
+      width: 794px;
+      height: 443px;
+      position: absolute;
+      top: 2px;
+      left: 210px;
+      border-right: 2px solid #E5004B;
+      border-bottom: 2px solid #E5004B;
+      display: none;
+      cursor: pointer; }
+
+.banner {
+  height: 447px;
+  position: relative;
+  overflow: hidden;
+  width: 100%; }
+  .banner ul {
+    overflow: hidden; }
+    .banner ul li {
+      position: absolute;
+      left: 0;
+      top: 0; }
+      .banner ul li img {
+        height: 445px; }
+  .banner .btns {
+    opacity: 0; }
+    .banner .btns .left {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      width: 40px;
+      height: 60px;
+      cursor: pointer;
+      margin: -30px 0px 0px -386px;
+      background: url(../images/slider-arrow.png) -126px -137px no-repeat black;
+      border-radius: 5px; }
+    .banner .btns .right {
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: 1;
+      width: 40px;
+      height: 60px;
+      cursor: pointer;
+      margin: -30px 0px 0px 366px;
+      background: url(../images/slider-arrow.png) -6px -137px no-repeat black;
+      border-radius: 5px; }
+  .banner .bn {
+    position: absolute;
+    right: 112px;
+    top: 0px;
+    width: 191px;
+    height: 445px;
+    overflow: hidden; }
+
+.supuy_cultrue {
+  height: 108px;
+  background: url(../images/back.png) #e5004b no-repeat center; }
+
+.footer_nav {
+  background: #333;
+  border-bottom: 1px solid #444; }
+  .footer_nav .layout {
+    height: 162px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer_nav .layout .footer_nav_ul {
+      width: 170px;
+      text-align: center;
+      height: 116px;
+      border-right: 1px solid #444; }
+      .footer_nav .layout .footer_nav_ul h3 {
+        font-size: 14px;
+        color: #DBDBDB;
+        line-height: 30px; }
+      .footer_nav .layout .footer_nav_ul ul li a {
+        color: #666;
+        font-size: 12px;
+        line-height: 29px; }
+        .footer_nav .layout .footer_nav_ul ul li a:hover {
+          color: #E5004B; }
+    .footer_nav .layout .wx {
+      width: 140px;
+      padding-left: 30px; }
+
+.footer_supu {
+  height: 157px;
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around; }
+  .footer_supu ul li {
+    padding: 0 10px;
+    height: 16px;
+    float: left;
+    border-right: 1px solid #666; }
+    .footer_supu ul li:last-child {
+      border: none; }
+    .footer_supu ul li a {
+      color: #666;
+      font-size: 12px;
+      float: left; }
+      .footer_supu ul li a:hover {
+        color: #E5004B; }
+  .footer_supu p {
+    padding-left: 25px;
+    background: url(../images/ghs.png) no-repeat; }
+    .footer_supu p a {
+      color: #666;
+      font-size: 12px; }
+  .footer_supu span {
+    color: #666;
+    font-size: 12px; }
+  .footer_supu div img {
+    float: left;
+    margin-right: 3px; }

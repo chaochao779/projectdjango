@@ -1,0 +1,65 @@
+{% load staticfiles %}
+{#<!DOCTYPE html>#}
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="{% static 'css/login.css' %}"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="top">
+				<a href=""><img src="{% static 'images/lgoo0.jpg' %}"></a>
+				<h2 class="welc">欢迎登录</h2>
+			</div>
+		</div>
+		<div class="main">
+			<div class="form form1">
+                <form action="/login/" method="post">
+                    <h1>会员登录<span>没有速普账号？<a href="/registhtml/" id="zc">立即注册</a></span></h1>
+                    <p class="ere"></p>
+                    <input type="text" name="user1" id="user1" placeholder="邮箱、手机号、账号"/>
+
+                    <input type="password" name="psw1" id="psw1" placeholder="密码,6~12位"/>
+                    <input type="checkbox" name="rem1" id="rem1"/><label for="rem1" class="rem">记住用户名</label>
+                    <input type="checkbox" name="zid1" id="zid1"/><label for="zid1" class="zid">自动登录</label>
+{#                    <a href="javascript:;" class="forget">忘记密码了？</a>#}
+                    <input type="submit" name="btn1" id="btn1" value="登录" />
+                    {% csrf_token %}
+
+			    </form>
+            </div>
+
+{#			<div class="form form2">#}
+{#				<h1>用户注册<span>已有账号？<a href="javascript:;" id="dl">立即登录</a></span></h1>#}
+{#				<p class="ere"></p>#}
+{#				<input type="text" name="user2" id="user2" placeholder="邮箱、手机号、账号"/>#}
+{#				<input type="password" name="psw2" id="psw2" placeholder="密码,6~12位"/>#}
+{#				<input type="password" name="psw3" id="psw3" placeholder="确认密码"/>#}
+{#				<input type="checkbox" name="read" id="read"/><span>我已阅读并同意</span><a href="javascript:;">《速普商城用户协议》</a>#}
+{#				<input type="button" name="btn2" id="btn2" value="注册" />#}
+{##}
+{#			</div>#}
+
+
+            <div id="nihao"></div>
+
+		</div>
+		<div class="footer">
+			<p>Copyright © 超超商城 2010-2016 All Right Reseved 皖西学院 ICP 证 09059644 号</p>
+			<div class="footer_img">
+				<a href="javascript:;"><img src="{% static 'images/zhizhao.png' %}"/></a>
+				<a href="javascript:;"><img src="{% static 'images/cnnic.png' %}"/></a>
+				
+			</div>
+		</div>
+
+
+
+	</body>
+	<script src="{% static 'libs/jquery.js' %}" type="text/javascript" charset="utf-8"></script>
+	<script src="{% static 'data/sael.js' %}" type="text/javascript" charset="utf-8"></script>
+	<script src="{% static 'libs/require.js' %}" type="text/javascript" charset="utf-8"></script>
+	<script src="{% static 'libs/main.js' %}" type="text/javascript" charset="utf-8"></script>
+	<script src="{% static 'libs/data.js' %}" type="text/javascript" charset="utf-8"></script>
+</html>

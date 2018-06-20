@@ -1,0 +1,46 @@
+[ERROR][2018-05-08 15:13:39,237][basehttp.py][log_message][124]> "GET /art/index/ HTTP/1.1" 500 69333
+[INFO][2018-05-08 15:19:05,018][basehttp.py][log_message][124]> "GET /art/index/ HTTP/1.1" 200 6647
+[INFO][2018-05-08 15:29:02,793][index_handler.py][IndexHandler][35]> IndexHandler request Handler begin
+[INFO][2018-05-08 15:29:02,855][basehttp.py][log_message][124]> "GET /art/index/ HTTP/1.1" 200 6647
+[INFO][2018-05-08 15:29:03,215][basehttp.py][log_message][124]> "GET /static/base/images/logo.png HTTP/1.1" 200 3000
+[INFO][2018-05-08 15:49:32,401][index_handler.py][IndexHandler][35]> IndexHandler request Handler begin
+[INFO][2018-05-08 15:49:32,530][basehttp.py][log_message][124]> "GET /art/index/ HTTP/1.1" 200 6647
+[INFO][2018-05-08 15:49:32,956][basehttp.py][log_message][124]> "GET /static/base/images/logo.png HTTP/1.1" 200 3000
+[INFO][2018-05-08 15:50:05,376][basehttp.py][log_message][124]> "GET /xadmin/ HTTP/1.1" 200 13906
+[INFO][2018-05-08 15:50:05,861][basehttp.py][log_message][124]> "GET /xadmin/jsi18n/ HTTP/1.1" 200 4828
+[INFO][2018-05-08 15:50:05,949][basehttp.py][log_message][124]> "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 200 31918
+[INFO][2018-05-08 15:50:05,968][basehttp.py][log_message][124]> "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 200 3489
+[INFO][2018-05-08 15:50:25,935][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 200 30332
+[INFO][2018-05-08 15:50:25,952][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 200 30332
+[INFO][2018-05-08 15:50:26,010][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 200 30332
+[ERROR][2018-05-08 15:50:26,169][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 500 59
+[ERROR][2018-05-08 15:50:26,170][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 500 59
+[INFO][2018-05-08 15:50:26,227][basehttp.py][log_message][124]> "GET /xadmin/jsi18n/ HTTP/1.1" 200 4828
+[INFO][2018-05-08 15:50:26,253][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 200 30332
+[ERROR][2018-05-08 15:50:26,257][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 500 59
+[INFO][2018-05-08 15:51:16,623][index_handler.py][IndexHandler][35]> IndexHandler request Handler begin
+[INFO][2018-05-08 15:51:16,655][basehttp.py][log_message][124]> "GET /art/index/ HTTP/1.1" 200 6647
+[INFO][2018-05-08 15:51:16,933][basehttp.py][log_message][124]> "GET /static/base/images/logo.png HTTP/1.1" 200 3000
+[INFO][2018-05-08 16:12:34,302][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 200 30332
+[INFO][2018-05-08 16:12:34,467][basehttp.py][log_message][124]> "GET /xadmin/jsi18n/ HTTP/1.1" 200 4828
+[INFO][2018-05-08 16:12:37,718][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/add/ HTTP/1.1" 200 22886
+[INFO][2018-05-08 16:12:37,881][basehttp.py][log_message][124]> "GET /xadmin/jsi18n/ HTTP/1.1" 200 4828
+[INFO][2018-05-08 16:18:09,808][basehttp.py][log_message][124]> "GET /xadmin/arts_app/tag/add/ HTTP/1.1" 200 3725
+[INFO][2018-05-08 16:18:50,716][basehttp.py][log_message][124]> "POST /xadmin/arts_app/tag/add/ HTTP/1.1" 200 158
+[INFO][2018-05-08 16:18:51,005][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/add/?_field=a_tag&a_tag=1 HTTP/1.1" 200 2346
+[INFO][2018-05-08 16:18:55,762][basehttp.py][log_message][124]> "POST /xadmin/arts_app/art/add/ HTTP/1.1" 302 0
+[INFO][2018-05-08 16:18:56,874][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/ HTTP/1.1" 200 37140
+[INFO][2018-05-08 16:18:57,107][basehttp.py][log_message][124]> "GET /xadmin/jsi18n/ HTTP/1.1" 200 4828
+[INFO][2018-05-08 16:18:57,113][basehttp.py][log_message][124]> "GET /static/xadmin/js/xadmin.plugin.actions.js HTTP/1.1" 200 4198
+[INFO][2018-05-08 16:19:05,909][basehttp.py][log_message][124]> "GET /xadmin/arts_app/art/?_cols=a_title.a_info.a_img.a_createtime.a_updatetime HTTP/1.1" 200 38866
+[INFO][2018-05-08 16:19:06,062][basehttp.py][log_message][124]> "GET /xadmin/jsi18n/ HTTP/1.1" 200 4828
+[INFO][2018-05-08 16:19:10,667][index_handler.py][IndexHandler][35]> IndexHandler request Handler begin
+[INFO][2018-05-08 16:19:10,730][basehttp.py][log_message][124]> "GET /art/index/ HTTP/1.1" 200 7900
+[WARNING][2018-05-08 16:19:11,130][basehttp.py][log_message][124]> "GET /static/uploads/180.jpg HTTP/1.1" 404 1658
+[INFO][2018-05-08 16:19:11,178][basehttp.py][log_message][124]> "GET /static/base/images/logo.png HTTP/1.1" 200 3000
+[INFO][2018-05-08 16:19:19,848][index_handler.py][IndexHandler][35]> IndexHandler request Handler begin
+[INFO][2018-05-08 16:19:20,033][basehttp.py][log_message][124]> "GET /art/index/?t=1 HTTP/1.1" 200 7900
+[WARNING][2018-05-08 16:19:20,318][basehttp.py][log_message][124]> "GET /static/uploads/180.jpg HTTP/1.1" 404 1658
+[INFO][2018-05-08 16:19:22,266][index_handler.py][IndexHandler][35]> IndexHandler request Handler begin
+[INFO][2018-05-08 16:19:22,302][basehttp.py][log_message][124]> "GET /art/index/?t=0 HTTP/1.1" 200 7900
+[WARNING][2018-05-08 16:19:22,548][basehttp.py][log_message][124]> "GET /static/uploads/180.jpg HTTP/1.1" 404 1658
